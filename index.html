@@ -4,113 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- CSS -->
     <link rel="stylesheet" href="./src/css/style.css">
     <title>Orbital Flood Watch</title>
 </head>
 
 <body>
 
-    <!-- Cabeçalho do site -->
     <header>
-        <h1 class="logo">Orbital Flood Watch</h1>
-        <!-- Navegação -->
+        <h1 class="logo">Orbital <span>Flood Watch</span></h1>
         <nav>
             <a href="#hero">Início</a>
             <a href="#problema">Problema</a>
             <a href="#tecnologia">Tecnologia</a>
-            <a href="#objetivos">Objetivos</a>
             <a href="#publico">Público</a>
             <a href="#beneficios">Benefícios</a>
             <a href="#aplicacao">Aplicação</a>
         </nav>
     </header>
 
-    <!-- ===========================
-    CONTEÚDO PRINCIPAL
-    ================================-->
     <main>
 
-        <!-- =========================
-        HERO section
-        ============================== -->
         <section id="hero">
-            <!-- Texto principal -->
             <div class="hero-content">
                 <span class="tag">Monitoramento Inteligente</span>
                 <h1>Tecnologia espacial aplicada à prevenção de enchentes</h1>
                 <p>Sistema preventivo inspirado em sensores climáticos, satélites e monitoramento orbital em tempo real.</p>
 
-                <!-- Botões -->
                 <div class="hero-buttons">
                     <a href="#problema" class="btn-primary">Explorar Projeto</a>
                     <a href="#tecnologia" class="btn-secondary">Ver Tecnologia</a>
                 </div>
             </div>
 
-            <!-- Dashboard com estilo futurista -->
-            <div class="hero-dashboard">
-                <!-- Card principal -->
-                <div class="dashboard-card large-card">
-                    <div class="card-header">
-                        <h3>Nível da Água</h3>
-                        <span class="status danger">Risco Moderado</span>
-                    </div>
-                    <!-- Simulação do gráfico -->
-                    <div class="graph">
-                        <div class="graph-line"></div>
-                    </div>
-                    <!-- Dados ficticios -->
-                    <div class="metrics">
-                        <div class="metric">
-                            <span class="metric-title">Sensores ativos</span>
-                            <h2>143/150</h2>
-                            <p>95,3% operacional</p>
-                        </div>
-
-                        <div class="metric">
-                            <span class="metric-title">Chuva prevista</span>
-                            <h2>87%</h2>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Cards menores pra complemento da estilização -->
-                <div class="dashboard-grid">
-                    <!-- Card -->
-                    <div class="dashboard-card small-card">
-                        <h3>Satélite Orbital</h3>
-                        <p class="signal">Sinal estável</p>
-                        <div class="orbit-circle"></div>
-                    </div>
-
-                    <!-- Card -->
-                    <div class="dashboard-card small-card">
-                        <h3>Alerta Climático</h3>
-                        <p>Chuvas intensas previstas nas próximas horas.</p>
-                        <div class="alert-bar"></div>
-                    </div>
-                </div>
-            </div>
         </section>
 
-        <!-- =========================
-        PROBLEMA
-        ============================== -->
         <section id="problema" class="problem-section">
 
-            <!-- Título -->
             <div class="problem-header section-header">
                 <span class="section-tag">01 / Problema</span>
                 <h2 class="problem-title">O Brasil tem um <span>problema crítico</span> com enchentes</h2>
                 <p>Milhares de famílias são afetadas todos os anos por eventos extremos que poderiam ter impactos reduzidos com monitoramento preventivo.</p>
             </div>
 
-            <!-- Estatísticas -->
             <div class="stats-grid">
                 <div class="stat-card glass-card">
                     <h3 class="stat-number red">+150 mil</h3>
@@ -133,7 +71,6 @@
                 </div>
             </div>
 
-            <!-- Cards principais do problema -->
             <div class="problem-grid grid-3">
                 <div class="problem-card glass-card">
                     <span class="icon">🌧️</span>
@@ -155,13 +92,11 @@
                 </div>
             </div>
 
-            <!-- Tragédias recentes -->
             <div class="tragedy-section">
                 <h3>Tragédias Recentes</h3>
                 <div class="tragedy-grid">
-                    <!-- Card -->
                     <div class="tragedy-card glass-card">
-                        <div class="tragedy-image rs"></div>
+                        <img src="./src/images/rgs.jpg" alt="Enchente RS" class="tragedy-image">
                         <div class="tragedy-content">
                             <span>2024 • Rio Grande do Sul</span>
                             <h4>A maior tragédia climática recente do Brasil</h4>
@@ -169,9 +104,8 @@
                         </div>
                     </div>
 
-                    <!-- Card -->
                     <div class="tragedy-card glass-card">
-                        <div class="tragedy-image petropolis"></div>
+                        <img src="./src/images/petropolis.jpg" alt="Desastre de Chuva" class="tragedy-image">
                         <div class="tragedy-content">
                             <span>2022 • Petrópolis</span>
                             <h4>Falta de tempo para reação</h4>
@@ -179,9 +113,8 @@
                         </div>
                     </div>
 
-                    <!-- Card -->
                     <div class="tragedy-card glass-card">
-                        <div class="tragedy-image recife"></div>
+                        <img src="./src/images/impacto.jpg" alt="Impacto Social Chuvas" class="tragedy-image">
                         <div class="tragedy-content">
                             <span>2022 • Recife e Pernambuco</span>
                             <h4>Impacto social nas periferias</h4>
@@ -192,170 +125,112 @@
             </div>
         </section>
 
-        <!-- =========================
-        TECNOLOGIA
-        =============================== -->
         <section id="tecnologia" class="technology-section">
 
-            <!-- Título -->
             <div class="technology-header">
                 <span class="section-tag">02 / Tecnologia</span>
-                <h2 class="technology-title">Tecnologia inspirada em sistemas reais de <span>monitoramento climático e espacial</span></h2>
-                <p>O Orbital Flood Watch combina monitoramento orbital, sensores inteligentes e comunicação em tempo real para reduzir impactos causados por enchentes.</p>
+                <h2 class="technology-title">
+                    Tecnologias utilizadas no <span>Sistema Inteligente de Alerta de Enchentes</span>
+                </h2>
+                <p>
+                    O projeto combina desenvolvimento web, lógica em Python e prototipagem com Arduino para simular um sistema de prevenção de enchentes.
+                </p>
             </div>
 
             <div class="tech-flow">
-                <!-- CARD 1 -->
+
                 <div class="tech-advanced-card">
-                    <div class="tech-image orbital"></div>
+                    <img src="https://images.unsplash.com/photo-1621839673705-6607ae1e7db1?q=80&w=300&auto=format&fit=crop" alt="HTML5" class="tech-image">
                     <div class="tech-content">
-                        <span class="tech-label">MONITORAMENTO ORBITAL</span>
-                        <h3>Satélites Climáticos</h3>
-                        <p>Inspirado em tecnologias utilizadas por satélites meteorológicos como GOES, NASA, NOAA e INPE para análise climática em tempo real.</p>
+                        <span class="tech-label">FRONT-END</span>
+                        <h3>HTML5</h3>
+                        <p>Responsável pela estrutura da página e organização das informações do sistema.</p>
                         <ul>
-                            <li>▸ Monitoramento de tempestades</li>
-                            <li>▸ Análise de nuvens e chuvas</li>
-                            <li>▸ Sensoriamento remoto</li>
+                            <li>▸ Estrutura da landing page</li>
+                            <li>▸ Seções informativas</li>
+                            <li>▸ Organização de conteúdo</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- CARD 2 -->
                 <div class="tech-advanced-card">
-                    <div class="tech-image sensors"></div>
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=300&auto=format&fit=crop" alt="CSS3" class="tech-image">
                     <div class="tech-content">
-                        <span class="tech-label">SENSORES INTELIGENTES</span>
-                        <h3>Detecção de Risco</h3>
-                        <p>Sensores locais monitoram aumento do nível da água, intensidade da chuva e regiões vulneráveis.</p>
+                        <span class="tech-label">ESTILIZAÇÃO</span>
+                        <h3>CSS3</h3>
+                        <p>Responsável pelo design visual, cores, layout e responsividade da interface.</p>
                         <ul>
-                            <li>▸ Sensor ultrassônico</li>
-                            <li>▸ Sensor de chuva</li>
-                            <li>▸ Monitoramento contínuo</li>
+                            <li>▸ Layout responsivo</li>
+                            <li>▸ Identidade visual</li>
+                            <li>▸ Organização estética</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- CARD 3 -->
                 <div class="tech-advanced-card">
-                    <div class="tech-image processing"></div>
+                    <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?q=80&w=300&auto=format&fit=crop" alt="JavaScript" class="tech-image">
                     <div class="tech-content">
-                        <span class="tech-label">PROCESSAMENTO DE DADOS</span>
-                        <h3>Análise Inteligente</h3>
-                        <p>O sistema interpreta informações climáticas e define níveis de risco automaticamente.</p>
+                        <span class="tech-label">INTERATIVIDADE</span>
+                        <h3>JavaScript</h3>
+                        <p>Adiciona interatividade ao sistema, como simulação de risco, validações e respostas dinâmicas.</p>
                         <ul>
-                            <li>▸ Dados em tempo real</li>
-                            <li>▸ Níveis de risco</li>
-                            <li>▸ Análise preventiva</li>
+                            <li>▸ Simulação de enchentes</li>
+                            <li>▸ Validação de formulários</li>
+                            <li>▸ Alteração dinâmica da interface</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- CARD 4 -->
                 <div class="tech-advanced-card">
-                    <div class="tech-image algoritmo"></div>
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=300&auto=format&fit=crop" alt="Python" class="tech-image">
                     <div class="tech-content">
-                        <span class="tech-label">ANÁLISE PREDITIVA</span>
-                        <h3>Machine Learning • IA</h3>
-                        <p>Algoritmos processam os dados coletados e auxiliam na previsão e identificação antecipada de cenários de risco, permitindo evacuações seguras.</p>
+                        <span class="tech-label">MODELAGEM MATEMÁTICA</span>
+                        <h3>Python</h3>
+                        <p>Utilizado para simular o cálculo do nível de risco e modelagem matemática das enchentes.</p>
                         <ul>
-                            <li>▸ Previsão de risco em até 72h</li>
-                            <li>▸ Machine Learning climático</li>
-                            <li>▸ Análise contínua de sensores</li>
-                            <li>▸ Detecção inteligente de padrões</li>
+                            <li>▸ Cálculo de risco</li>
+                            <li>▸ Funções matemáticas</li>
+                            <li>▸ Simulação de cenários</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- CARD 5 -->
                 <div class="tech-advanced-card">
-                    <div class="tech-image alerts"></div>
+                    <img src="https://images.unsplash.com/photo-1517055729445-fa7d27394b48?q=80&w=300&auto=format&fit=crop" alt="Arduino" class="tech-image">
                     <div class="tech-content">
-                        <span class="tech-label">ALERTAS EMERGENCIAIS</span>
-                        <h3>Comunicação Rápida</h3>
-                        <p>Alertas podem ser enviados rapidamente para comunidades vulneráveis e órgãos responsáveis.</p>
+                        <span class="tech-label">PROTÓTIPO EMBARCADO</span>
+                        <h3>Arduino (Wokwi)</h3>
+                        <p>Simulação de sensores para detecção de nível de água e emissão de alertas visuais e sonoros.</p>
                         <ul>
-                            <li>▸ SMS e notificações</li>
-                            <li>▸ Painéis digitais</li>
-                            <li>▸ Evacuação preventiva</li>
+                            <li>▸ Sensor de distância</li>
+                            <li>▸ LEDs de alerta</li>
+                            <li>▸ Buzzer de emergência</li>
                         </ul>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Painel final sobre reflexão e impacto real na realidade de algumas vidas -->
             <div class="technology-highlight">
                 <div class="highlight-content">
-                    <span class="highlight-tag">IMPACTO PREVENTIVO</span>
-                    <h3>"Muitas tragédias não acontecem apenas pela enchente, mas pela falta de tempo para reação."</h3>
-                    <p>O objetivo do Orbital Flood Watch é transformar monitoramento climático em prevenção real, ajudando comunidades vulneráveis a reagirem antes do desastre.</p>
+                    <span class="highlight-tag">VISÃO DO PROJETO</span>
+                    <h3>"Tecnologia acessível aplicada à prevenção de desastres urbanos."</h3>
+                    <p>
+                        O objetivo do sistema é integrar diferentes áreas da computação para simular uma solução realista de prevenção de enchentes, focada em impacto social e segurança.
+                    </p>
                 </div>
             </div>
+
         </section>
 
-        <!-- ========================
-        OBJETIVOS
-        ============================== -->
-        <section id="objetivos" class="mission-section">
-
-            <!-- Título -->
-            <div class="section-header">
-                <span class="section-tag">03 / Objetivos</span>
-                <h2>Nossa missão é salvar vidas</h2>
-                <p>O Orbital Flood Watch utiliza dados climáticos, sensores inteligentes e análise preditiva para antecipar riscos e reduzir os impactos das enchentes antes que elas aconteçam.</p>
-            </div>
-
-            <!-- CARD 1 -->
-            <div class="grid-4">
-                <div class="mission-card glass-card">
-                    <span>🛡️</span>
-                    <h3>Prevenção Proativa</h3>
-                    <p>Identificar riscos antes que se tornem desastres, dando tempo para que autoridades e comunidades tomem medidas preventivas.</p>
-                </div>
-
-                <!-- CARD 2 -->
-                <div class="mission-card glass-card">
-                    <span>📡</span>
-                    <h3>Monitoramento Contínuo</h3>
-                    <p>Acompanhar condições climáticas e ambientais em tempo real.</p>
-                </div>
-
-                <!-- CARD 3 -->
-                <div class="mission-card glass-card">
-                    <span>🚨</span>
-                    <h3>Redução de Danos Materiais</h3>
-                    <p>Minimizar perdas econômicas através de evacuações antecipadas e proteção de infraestrutura crítica.</p>
-                </div>
-
-                <!-- CARD 4 -->
-                <div class="mission-card glass-card">
-                    <span>❤️</span>
-                    <h3>Proteção de Vidas</h3>
-                    <p>Reduzir em grande escala o número de vítimas fatais em regiões onde o sistema estiver implementado.</p>
-                </div>
-
-                <!-- CARD 5 -->
-                <div class="mission-card glass-card">
-                    <span>🌱</span>
-                    <h3>Fortalecer Comunidades</h3>
-                    <p>Educar e engajar comunidades vulneráveis sobre riscos, prevenção e procedimentos de segurança.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- ========================
-        PÚBLICO
-        ============================== -->
         <section id="publico" class="public-section">
 
-            <!-- Título -->
             <div class="section-header">
-                <span class="section-tag">04 / Público-Alvo</span>
+                <span class="section-tag">03 / Público-Alvo</span>
                 <h2>Para quem desenvolvemos</h2>
                 <p>O sistema foi pensado para atender múltiplos perfis de usuários com necessidades distintas e complementares.</p>
             </div>
 
-            <!-- CARD 1 -->
             <div class="grid-4">
                 <div class="public-card glass-card">
                     <span class="public-icon">🏘️</span>
@@ -368,7 +243,6 @@
                     </ul>
                 </div>
 
-                <!-- CARD 2 -->
                 <div class="public-card glass-card">
                     <span class="public-icon">🚨</span>
                     <h3>Defesa Civil</h3>
@@ -380,7 +254,6 @@
                     </ul>
                 </div>
 
-                <!-- CARD 3 -->
                 <div class="public-card glass-card">
                     <span class="public-icon">🏛️</span>
                     <h3>Órgãos Públicos</h3>
@@ -392,7 +265,6 @@
                     </ul>
                 </div>
 
-                <!-- CARD 4 -->
                 <div class="public-card glass-card">
                     <span class="public-icon">🔬</span>
                     <h3>Pesquisadores</h3>
@@ -406,19 +278,14 @@
             </div>
         </section>
 
-        <!-- =======================
-        BENEFÍCIOS
-        ============================= -->
         <section id="beneficios" class="benefits-section">
 
-            <!-- Título -->
             <div class="section-header">
-                <span class="section-tag">05 / Benefícios</span>
+                <span class="section-tag">04 / Benefícios</span>
                 <h2>O impacto real do sistema</h2>
                 <p>Cada funcionalidade foi projetada para reduzir riscos, proteger comunidades e auxiliar autoridades na tomada de decisões.</p>
             </div>
 
-            <!-- CARD 1 -->
             <div class="benefits-grid">
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">⚡</span>
@@ -426,35 +293,30 @@
                     <p>Notificações enviadas em segundos após a detecção de risco, permitindo ações preventivas mais rápidas.</p>
                 </div>
 
-                <!-- CARD 2 -->
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">🛡️</span>
                     <h3>Prevenção Inteligente</h3>
                     <p>Modelos preditivos analisam dados climáticos e antecipam cenários de enchentes antes que se tornem emergências.</p>
                 </div>
 
-                <!-- CARD 3 -->
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">📱</span>
                     <h3>Acesso Simplificado</h3>
                     <p>Plataforma acessível por dispositivos móveis, facilitando o acesso às informações críticas.</p>
                 </div>
 
-                <!-- CARD 4 -->
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">🌎</span>
                     <h3>Monitoramento Contínuo</h3>
                     <p>Sensores e dados orbitais atualizados em tempo real garantem acompanhamento permanente das regiões monitoradas.</p>
                 </div>
 
-                <!-- CARD 5 -->
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">📉</span>
                     <h3>Redução de Impactos</h3>
                     <p>Menor número de vítimas, menos danos materiais e maior capacidade de resposta diante de eventos extremos.</p>
                 </div>
 
-                <!-- CARD 6 -->
                 <div class="benefit-card glass-card">
                     <span class="benefit-icon">🤝</span>
                     <h3>Apoio à Comunidade</h3>
@@ -464,21 +326,16 @@
 
         </section>
 
-        <!-- =========================
-        APLICAÇÃO
-        ================================ -->
         <section id="aplicacao" class="application-section">
 
-            <!-- Título -->
             <div class="section-header">
-                <span class="section-tag">06 / Aplicação</span>
+                <span class="section-tag">05 / Aplicação</span>
                 <h2>Como o sistema funciona na prática</h2>
                 <p>Do monitoramento ao envio de alertas, todo o processo acontece de forma automática para reduzir o tempo de resposta.</p>
             </div>
 
             <div class="application-wrapper">
 
-                <!-- Timeline -->
                 <div class="application-timeline">
                     <div class="timeline-item">
                         <div class="timeline-number">1</div>
@@ -517,20 +374,14 @@
                     </div>
                 </div>
 
-                <!-- Card visual do Alerta -->
-                <div class="alert-card-image glass-card">
-                    <img src="./src/images/alerta-ofw.jpg" alt="Exemplo de alerta OFW">
-                </div>
-
             </div>
         </section>
     </main>
 
-    <!-- FOOTER -->
     <footer>
-        <h2>Orbital Flood Watch</h2>
+        <h2>Orbital <span>Flood Watch</span></h2>
         <p>Tecnologia e prevenção conectadas para proteger vidas.</p>
-        <span>GS FIAP 2026</span>
+        <span class="year">GS FIAP 2026</span>
     </footer>
 
 </body>
