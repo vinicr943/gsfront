@@ -514,14 +514,21 @@ nav a:hover {
 
 .benefits-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .benefit-card {
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
+    align-items: center;
+    gap: 18px;
+
+    padding: 22px 24px;
+    min-height: 110px;
+
+    border-radius: 16px;
 }
 
 .benefit-icon {
