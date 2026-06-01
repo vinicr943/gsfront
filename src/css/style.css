@@ -18,10 +18,10 @@
     --text-muted: #8fa0dd;
     
     /* Cores de Alerta */
-    --red: #ff3d00;
-    --yellow: #ffea00;
-    --blue: #00b0ff;
-    --green: #00e676;
+    --red: #ff0000;
+    --yellow: #ff0000;
+    --blue: #ff0000;
+    --green: #ff0000;
 }
 
 body {
@@ -145,13 +145,11 @@ nav a:hover {
 /* ==========================================================================
    HERO SECTION
    ========================================================================== */
-#hero {
-    min-height: 100vh;
-    padding: 120px 8% 60px 8%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 50px;
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
 
 .hero-content .tag {
