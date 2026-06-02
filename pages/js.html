@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="../src/css/style.css">
+
+    <title>Painel Interativo - Orbital Flood Watch</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="logo">Orbital <span>Flood Watch</span></h1>
+        <nav>
+            <a href="../index.html#hero">Início</a>
+            <a href="../index.html#problema">Problema</a>
+            <a href="../index.html#tecnologia">Tecnologia</a>
+            <a href="../index.html#publico">Público</a>
+            <a href="../index.html#beneficios">Benefícios</a>
+            <a href="../index.html#aplicacao">Aplicação</a>
+            <a href="js.html" style="color: var(--primary-color);">Painel</a>
+        </nav>
+    </header>
+
+    <main class="main-container">
+
+       
+        <div class="section-header">
+            <span class="section-tag">Área de Interatividade</span>
+            <h2>Painel de Controle <span>Sócio-Ambiental</span></h2>
+            <p>Altere os modos de visualização do sistema, verifique as condições meteorológicas em tempo real e teste seu nível de preparação contra desastres urbanos.</p>
+        </div>
+
+        <div class="theme-container">
+            <button class="theme-btn" onclick="mudarTema('espacial')"><i class="bx bx-planet" style="font-size: 14px;"></i> Modo Orbital</button>
+            <button class="theme-btn" onclick="mudarTema('alerta')"><i class="bx bx-siren" style="font-size: 14px;"></i> Modo Alerta</button>
+            <button class="theme-btn" onclick="mudarTema('profundo')"><i class="bx bx-water" style="font-size: 14px;"></i> Modo Oceano</button>
+        </div>
+
+      
+        <div class="dashboard-row">
+            
+            
+            <div class="glass-card" style="display: flex; flex-direction: column; justify-content: center;">
+                <h3>Clima em <span>Tempo Real</span></h3>
+                <p>Monitore cidades e preveja riscos de precipitações volumosas imediatamente.</p>
+                
+                <form id="formClima" class="form-clima" onsubmit="validarEBuscar(event)">
+                    <input type="text" id="cidade" placeholder="Ex: Porto Alegre, Petrópolis...">
+                    <button type="submit" class="btn-primary">Buscar</button>
+                </form>
+                
+                <div id="resultado"></div>
+            </div>
+
+            
+            <div class="glass-card slideshow-card">
+                <div class="slide">
+                    <img src="../src/images/rgs.jpg" alt="Rio Grande do Sul">
+                    <div class="slide-caption">
+                        <h3>Análise de Impacto Territorial</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../src/images/petropolis.jpg" alt="Petrópolis">
+                    <div class="slide-caption">
+                        <h3>Zonas de Risco Geológico</h3>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="../src/images/impacto.jpg" alt="Impacto Social">
+                    <div class="slide-caption">
+                        <h3>Prevenção Focada em Comunidades</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="glass-card quiz-section">
+            <div style="margin-bottom: 30px;">
+                <h3>Quiz de <span>Consciência Climática</span></h3>
+                <p>Responda às 10 questões abaixo para validar seus conhecimentos sobre gerenciamento de riscos.</p>
+            </div>
+            
+            <form id="quizForm" onsubmit="calcularQuiz(event)">
+                <div id="quiz-perguntas"></div>
+                
+                <button type="submit" class="btn-primary" style="width: 100%; margin-top: 20px;">
+                    Finalizar e Calcular Resultado
+                </button>
+            </form>
+            
+            <div id="quiz-resultado" style="display: none;"></div>
+        </div>
+
+    </main>
+
+  
+    <footer>
+        <h2>Orbital <span>Flood Watch</span></h2>
+        <p>Tecnologia a serviço da segurança civil e preservação de vidas.</p>
+        <div class="year">2026 • Desenvolvido para Fins Educacionais</div>
+    </footer>
+
+    
+    <script src="../src/js/javascript.js"></script>
+    
+
+</body>
+
+</html>
