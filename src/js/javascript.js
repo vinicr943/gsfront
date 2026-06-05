@@ -16,6 +16,15 @@ function mudarTema(tema) {
     }
 }
 
+function mudarPg(pg) {
+    const root = document.documentElement;
+
+    if (pg === 'painel') {
+         
+
+    }
+}
+
 let slideIndex = 0;
 
 function mostrarSlides() {
