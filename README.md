@@ -40,25 +40,8 @@ O Orbital Flood Watch propõe um ecossistema integrado de prevenção composto p
 
 🚨 Sistema de alertas preventivos
 
-📱 Comunicação rápida com comunidades e autoridades
+📱 Comunicação rápida
 
----
-
-## ⚙️ Fluxo da Solução
-
-```text
-Monitoramento Climático
-        ↓
-Coleta de Dados
-        ↓
-Análise Inteligente
-        ↓
-Identificação de Risco
-        ↓
-Geração de Alertas
-        ↓
-Ação Preventiva
-```
 ---
 
 ## 👥 Público-Alvo
@@ -90,50 +73,8 @@ Análise de dados climáticos e ambientais.
 
 ---
 
-## 🖼️ Demonstração
-
-### 🚀 Interface Inicial
-
-Tela principal do Orbital Flood Watch, apresentando a proposta de monitoramento inteligente baseado em sensores climáticos, análise preditiva e tecnologias inspiradas em sistemas espaciais. 
-
-<img src="src/images/tela1.png" width="700">
-
-### 🌧️ O Problema - ⚠️ Tragédias Recentes
-
-Milhares de famílias são afetadas anualmente por enchentes e deslizamentos. A plataforma destaca os principais desafios relacionados à prevenção e resposta a eventos climáticos extremos.
-
-Eventos climáticos ocorridos nos últimos anos demonstram a necessidade de sistemas capazes de antecipar riscos e fornecer alertas preventivos à população para evitar ou ao menos minizar trágedias.
-
-<img src="src/images/tela2.png" width="700">
-<img src="src/images/tela3.png" width="700">
-
-### 🎯 Objetivos
-
-A solução busca antecipar riscos, reduzir impactos sociais e fortalecer a capacidade de resposta das comunidades vulneráveis por meio da tecnologia.
-
-<img src="src/images/tela6.png" width="700">
-
-### ⚙️ Funcionamento
-
-Fluxo operacional da solução, desde a coleta de dados ambientais até a emissão de alertas preventivos para comunidades e autoridades.
-
-<img src="src/images/tela9.png" width="700">
-
-### 🚨 Alerta Preventivo
-
-Exemplo de notificação enviada aos usuários quando o sistema identifica condições favoráveis para enchentes ou situações de risco iminente.
-
-<img src="src/images/tela10.png" width="700">
-
----
-
 ## 👨‍💻 Desenvolvido por
--
--
--
--
-
----
-## 🌐 Deploy
-
-GitHub Pages:
+● Vinícius Campestrini Rodado
+● Vinícius Shoiti Rios Honda  
+● Guilherme Pimentel Vilela 
+● Alyson Gabriel Aquino Souto 
